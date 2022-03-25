@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+.dsp{
+    position: absolute;
+    width: 100%;
+}
+
+.imgprincipal{
+    max-width: 74%;
+}
+
+p{
+    color:white;
+}
+
+.boxtext{
+    margin: 130px 0 0 0;
+}
+
+.boxtext p{
+    max-width: 70%;
+    font-size: 1.3rem;
+}
+
+.boxtext h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.art{
+    margin-top: 35px;
+}
+
+#mint{
+    font-size: 1rem;
+}
+
+#drip{
+    position: fixed;
+    z-index: -1;
+}
+
+.imglist{
+    width: 100%;
+    max-height: 350px;
+    margin-bottom: 10px;
+}
+
+.onesec{
+    margin: 100px auto;
+    width: 70%;
+}
+
+.secic{
+    margin: 30px 0;
+}
+
+.secic span{
+    padding: 10px;
+    background: #0e0e0e;
+    border-radius: 100%;
+}
+
+@media (max-width: 500px){
+    .onesec {
+        width: 100%;
+    }
+    .secic span {
+        margin-bottom: 10px;
+    }
+}
