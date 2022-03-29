@@ -95,7 +95,7 @@ var Drip = ( function() {
       var xr = width / 400;
       var yr = height / 400;
 
-      ySpeed = 0.3 * yr;
+      ySpeed = 0.5 * yr;
       shapes.forEach( function( shape, index ) {
         shape.points.forEach( function( point ) {
           point.x = point.ox * xr;

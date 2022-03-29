@@ -1,5 +1,23 @@
+@font-face {
+    font-family: FiraSans-Bold;
+    src: url(../fonts/FiraSans-Bold.otf);
+}
+
+h1{
+    font-family: FiraSans-Bold;
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    background: -webkit-linear-gradient(#060606, #ff8d00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body{
-    background-color: black;
+    background: url(../images/img2.jpg) no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-color: #080808;
 }
 
 .dsp{
@@ -44,13 +62,13 @@ p{
 }
 
 .imglist{
-    width: 100%;
     max-height: 350px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .onesec{
-    margin: 100px auto;
+    margin: 70px auto;
     width: 70%;
 }
 
@@ -67,8 +85,23 @@ p{
 @media (max-width: 500px){
     .onesec {
         width: 100%;
+        margin: 135px auto;
     }
     .secic span {
         margin-bottom: 10px;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    body{
+        background-size: 100%;
+        background-position-y: 7%;
+    }
+    .boxtext {
+        margin: 40px 0 0 0;
+    }
+    .art {
+        margin-top: 49px;
+        margin-bottom: -80px;
     }
 }
