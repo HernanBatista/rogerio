@@ -82,6 +82,16 @@ p{
     border-radius: 100%;
 }
 
+@media (min-width: 1500px){
+	.art {
+		margin-top: 150px;
+	}
+	
+	.boxtext {
+		margin: 261px 0 0 0;
+	}
+}
+
 @media (max-width: 500px){
     .onesec {
         width: 100%;
